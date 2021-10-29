@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-vueuse",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxtjs/composition-api": "0.26.0",
+    "@nuxtjs/tailwindcss": "4.2.1",
+    "@vueuse/core": "5.2.0",
+    "nuxt": "2.15.7"
+  },
+  "keywords": []
+}
